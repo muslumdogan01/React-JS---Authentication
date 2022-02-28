@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Home = (props) => {
-  return <div></div>;
+  return <div>
+    <h1>Welcome to test authentication. Please <Link to={"/Login"}><a>Login</a></Link></h1>
+  </div>;
 };
 
 export default Home;
